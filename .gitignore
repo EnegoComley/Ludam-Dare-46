@@ -66,5 +66,5 @@ crashlytics-build.properties
 *.dll
 *.dll
 Game/Temp/UnityLockfile
-Game/Library/CurrentLayout-default.dwlt
-*.dwlt
+Game/Library/SourceAssetDB
+Game/Library/ArtifactDB
