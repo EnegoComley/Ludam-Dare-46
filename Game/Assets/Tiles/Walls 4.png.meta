@@ -1,4 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: be9c779c098ffd44b981d71a8a704ef5
+TextureImporter:
+  internalIDToNameTable: []
+=======
 guid: 6903fbdb05f31944b9b12c7f65d60bf2
 TextureImporter:
   internalIDToNameTable:
@@ -4277,6 +4282,7 @@ TextureImporter:
   - first:
       213: -7911384124512129592
     second: Walls 4_99
+>>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -4315,14 +4321,24 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
+  spriteMode: 1
+=======
   spriteMode: 2
+>>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+=======
   spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
+>>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -4346,6 +4362,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+=======
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -6251,6 +6272,7 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+>>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
     outline: []
     physicsShape: []
     bones: []
