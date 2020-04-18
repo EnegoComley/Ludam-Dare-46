@@ -64,3 +64,8 @@ crashlytics-build.properties
 *.dll
 *.dwlt
 Game/Temp/UnityLockfile
+Game/Library/EditorInstance.json
+Game/Temp/__Backupscenes/0.backup
+Game/Temp/UnityTempFile-308b261c06a42b34c9c1506e9b69f25a
+Game/Library/EditorInstance.json
+Game/Temp/UnityTempFile-308b261c06a42b34c9c1506e9b69f25a
