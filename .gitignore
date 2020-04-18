@@ -59,7 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 <<<<<<< HEAD
-*.asmdef
 *.dwlt
 Game/Temp/UnityLockfile
 Game/Library/SourceAssetDB
