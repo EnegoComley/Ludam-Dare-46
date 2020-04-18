@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 1903579411918472315}
   - component: {fileID: 1715206794570599173}
   - component: {fileID: 7385828599549761685}
+  - component: {fileID: 7904602098579218470}
   m_Layer: 0
-  m_Name: New Sprite
+  m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1942905302428835132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.7428, y: 1.7845, z: 62.420856}
+  m_LocalPosition: {x: 7.7428, y: 1.7845, z: 1}
   m_LocalScale: {x: 0.7375, y: 0.7375, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -103,3 +104,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &7904602098579218470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1942905302428835132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ab5090ab8bf6f04d98106ad932a5417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
