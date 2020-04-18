@@ -60,6 +60,7 @@ crashlytics-build.properties
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+*.dwlt
 Game/Temp/UnityLockfile
 Game/Library/SourceAssetDB
 Game/Library/ArtifactDB
