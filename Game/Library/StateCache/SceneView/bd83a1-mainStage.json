@@ -1,0 +1,5 @@
+<<<<<<< HEAD:Game/Library/StateCache/SceneView/fdb4d5-mainStage.json
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":0.7058038115501404,"y":-0.5312848091125488,"z":-4.2771759033203129},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":4.609286308288574,"orthographic":true}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":false,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":true,"pivot":{"x":14.956666946411133,"y":3.980830430984497,"z":-9.819706916809082},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":13.477629661560059,"orthographic":true}
+>>>>>>> 10d66253ae6fce52aaa06f3a896a50c953879e39:Game/Library/StateCache/SceneView/bd83a1-mainStage.json
