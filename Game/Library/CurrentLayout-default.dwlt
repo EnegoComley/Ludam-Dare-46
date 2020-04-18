@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 115
+  controlID: 117
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 140
+  controlID: 116
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,18 +344,18 @@ MonoBehaviour:
       y: 21
       width: 778
       height: 387
-    m_Scale: {x: 0.53125, y: 0.53125}
-    m_Translation: {x: 389, y: 193.5}
+    m_Scale: {x: 0.5153125, y: 0.5153125}
+    m_Translation: {x: 389, y: 189.12}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -732.2353
-      y: -364.2353
-      width: 1464.4706
-      height: 728.4706
+      x: -754.8818
+      y: -367.0006
+      width: 1509.7635
+      height: 751.0006
     m_MinimalGUI: 1
   m_defaultScale: 0.53125
   m_LastWindowPixelSize: {x: 778, y: 408}
@@ -400,9 +400,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.7281319, y: 0.68842, z: 45.05664}
+    m_Target: {x: -1.0011702, y: 0.6603105, z: 16.297712}
     speed: 2
-    m_Value: {x: -1.7281319, y: 0.68842, z: 45.05664}
+    m_Value: {x: -1.0729308, y: 0.6653088, z: 16.856201}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -444,7 +444,7 @@ MonoBehaviour:
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -452,9 +452,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 8.887315
+    m_Target: 2.227554
     speed: 2
-    m_Value: 8.504607
+    m_Value: 2.3325174
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 70faffff
-      m_LastClickedID: -1424
-      m_ExpandedIDs: 76faffff80faffff52fbffff
+      m_SelectedIDs: b2360000
+      m_LastClickedID: 14002
+      m_ExpandedIDs: c4faffff60fbffffb2360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -611,20 +611,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/TilePalettes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/TilePalettes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\testing\Documents\GitHub\Ludam-Dare-46\Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f2350000
-    m_LastClickedID: 13810
-    m_ExpandedIDs: 00000000ea35000000ca9a3b
+    m_SelectedIDs: 7e3c0000
+    m_LastClickedID: 15486
+    m_ExpandedIDs: 00000000cc340000d234000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -640,7 +640,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 11}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -652,7 +652,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea350000
+    m_ExpandedIDs: 00000000cc340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -679,8 +679,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 02360000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 02360000d43800006e3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
