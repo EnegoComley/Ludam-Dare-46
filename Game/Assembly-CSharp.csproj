@@ -61,10 +61,12 @@
      <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Scripts\NavMeshModifierVolume.cs" />
      <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Scripts\NavMeshSurface.cs" />
      <Compile Include="Assets\NavMeshPlus-master\NavMeshComponents\Scripts\NavMeshSurface2d.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\MainManagerController.cs" />
      <Compile Include="Assets\Scripts\Menu_Man.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\StaticManager.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
      <Compile Include="Assets\animation\screen animation script.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
