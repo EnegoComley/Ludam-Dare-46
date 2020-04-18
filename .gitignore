@@ -63,15 +63,6 @@ crashlytics-build.properties
 *.meta
 *.dll
 *.dwlt
+*.dll
+*.dll
 Game/Temp/UnityLockfile
-Game/Library/EditorInstance.json
-Game/Temp/__Backupscenes/0.backup
-Game/Temp/UnityTempFile-308b261c06a42b34c9c1506e9b69f25a
-Game/Library/EditorInstance.json
-Game/Temp/UnityTempFile-308b261c06a42b34c9c1506e9b69f25a
-Game/Library/CurrentLayout-default.dwlt
-Game/Library/LastSceneManagerSetup.txt
-Game/Library/CurrentLayout-default.dwlt
-Game/Library/StateCache/SceneView/703c33-mainStage.json
-Game/Library/SourceAssetDB
-Game/Library/StateCache/SceneView/b44e32-mainStage.json
