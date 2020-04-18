@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2020-04-18T19:54:23.083+01:00
+  initializedAtString: 2020-04-18T19:54:23.062+01:00
+  localBranches:
+  - name: Enego's-Stuff
+    tracking: 
+  - name: master
+    tracking: origin/master
+  - name: UnFucked
+    tracking: origin/UnFucked
+  remoteBranches:
+  - name: origin/master
+    tracking: '[None]'
+  - name: origin/real-game-animation
+    tracking: '[None]'
+  - name: origin/The-branch-of-Yavor
+    tracking: '[None]'
+  - name: origin/UnFucked
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/Neg999/Ludam-Dare-46.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - Enego's-Stuff
+    - master
+    - UnFucked
+    values:
+    - name: Enego's-Stuff
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/Neg999/Ludam-Dare-46.git
+      trackingBranch: master
+    - name: UnFucked
+      remote:
+        name: origin
+        url: https://github.com/Neg999/Ludam-Dare-46.git
+      trackingBranch: UnFucked
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - master
+      - real-game-animation
+      - The-branch-of-Yavor
+      - UnFucked
+    subKeyValues:
+    - Values:
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/Neg999/Ludam-Dare-46.git
+        trackingBranch: 
+      - name: real-game-animation
+        remote:
+          name: origin
+          url: https://github.com/Neg999/Ludam-Dare-46.git
+        trackingBranch: 
+      - name: The-branch-of-Yavor
+        remote:
+          name: origin
+          url: https://github.com/Neg999/Ludam-Dare-46.git
+        trackingBranch: 
+      - name: UnFucked
+        remote:
+          name: origin
+          url: https://github.com/Neg999/Ludam-Dare-46.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/Neg999/Ludam-Dare-46.git

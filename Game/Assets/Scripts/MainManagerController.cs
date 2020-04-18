@@ -5,6 +5,7 @@ using UnityEngine;
 public class MainManagerController : MonoBehaviour
 {
     public static MainManagerController theMainManagerScript;
+    public Vector3 payLoadDestination = new Vector3(0, -12, 0);
     // Start is called before the first frame update
     private void Awake()
     {
