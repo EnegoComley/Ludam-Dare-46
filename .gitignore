@@ -59,7 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 *.asmdef
-*.dll
 *.dwlt
 *.dll
 *.dll
