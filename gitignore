@@ -58,15 +58,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-*.dwlt
-Game/Temp/UnityLockfile
-Game/Library/SourceAssetDB
-Game/Library/ArtifactDB
-=======
-=======
->>>>>>> cced148019d00638fefa498562617b2fd7969d6a
 
+\Game\Library\*
 #
 Game/Temp/UnityLockfile

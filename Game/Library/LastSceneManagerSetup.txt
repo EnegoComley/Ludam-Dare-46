@@ -1,9 +1,13 @@
 sceneSetups:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - path: Assets/Scenes/Lvls/Lvl3.unity
 =======
 - path: Assets/Scenes/Sandbox.unity
 >>>>>>> 47477eaa72b72f2b1607de191e1f47b9925434e4
+=======
+- path: Assets/Scenes/TestScene.unity
+>>>>>>> 8dba6c2e2ae6dce844a0ccd86fb8ed6967d59cb4
   isLoaded: 1
   isActive: 1
   isSubScene: 0
