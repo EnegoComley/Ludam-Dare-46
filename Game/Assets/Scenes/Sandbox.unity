@@ -306,6 +306,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gun
       objectReference: {fileID: 0}
+    - target: {fileID: 7414703021897519272, guid: 8e860e512130e1f4ab3b264b57cff8c0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 7414703021897519279, guid: 8e860e512130e1f4ab3b264b57cff8c0,
         type: 3}
       propertyPath: m_LocalPosition.x
