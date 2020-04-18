@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-guid: 58d2318e0e2df9f4cab6c0fa8129a18e
+<<<<<<< HEAD
+guid: 704acdfc4034acd47b81f201951006b6
 TextureImporter:
   internalIDToNameTable: []
 =======
+=======
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
 guid: ba71ade283530c64ca50b0e9bbab61ce
 TextureImporter:
   internalIDToNameTable:
@@ -5335,7 +5338,10 @@ TextureImporter:
   - first:
       213: 271601836896434707
     second: Walls 7_89
->>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
+<<<<<<< HEAD
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
+=======
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -5375,14 +5381,19 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
 <<<<<<< HEAD
+<<<<<<< HEAD
   spriteMode: 1
 =======
   spriteMode: 2
->>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
+=======
+  spriteMode: 2
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+<<<<<<< HEAD
 <<<<<<< HEAD
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -5391,7 +5402,12 @@ TextureImporter:
   spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
->>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
+=======
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -5416,10 +5432,13 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   spriteSheet:
     serializedVersion: 2
     sprites: []
 =======
+=======
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -7136,7 +7155,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
->>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
+<<<<<<< HEAD
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
+=======
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
     outline: []
     physicsShape: []
     bones: []
