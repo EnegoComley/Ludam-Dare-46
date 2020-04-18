@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-sceneSetups: []
-=======
 sceneSetups:
 - path: Assets/Scenes/Sandbox.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
->>>>>>> 8380c4c0741f656c83c554c10675a5b4fcddeeb7
