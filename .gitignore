@@ -63,4 +63,9 @@ crashlytics-build.properties
 *.meta
 *.dll
 *.dwlt
+<<<<<<< HEAD
+=======
+*.dll
+*.dll
+>>>>>>> 2797ab09629fac2cc961969cb0ee796272d4105a
 Game/Temp/UnityLockfile
