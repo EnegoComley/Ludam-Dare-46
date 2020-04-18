@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour
     }
     void FixedUpdate()
     {
-        RB2D.MovePosition(RB2D.position + movement * MovementSpeed * Time.fixedDeltaTime);
+        RB2D.MovePosition(RB2D.position + movement * MovementSpeed * Time.fixedDeltaTime);  
         Vector2 dir = Mouse_Pos - RB2D.position;
         float angle = Mathf.Atan2(dir.y, dir.x);
         RB2D.rotation = (angle * Mathf.Rad2Deg) + 180;
