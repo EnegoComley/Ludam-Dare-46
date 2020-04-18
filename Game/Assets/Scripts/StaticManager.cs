@@ -29,7 +29,7 @@ public class StaticManager : MonoBehaviour
             get { return model; }
             set { model = value; }
         }
-        private static GameObject bullet = 
+        private static GameObject bullet; 
         private static int dammage = 10;
         public static int Dammage
         {
