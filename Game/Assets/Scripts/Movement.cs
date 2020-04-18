@@ -5,12 +5,12 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     Vector2 movement;
-    public Rigidbody2D player;
+    public GameObject player;
     public float MovementSpeed = 5f;
     public Camera Payload_Cam;
     Vector2 Mouse_Pos;
-    public Transform shootpoint;
     public GameObject bullet;
+    public Rigidbody2D RB2D;
     void Update()
     {
         movement.x =  Input.GetAxisRaw("Horizontal");
@@ -18,21 +18,22 @@ public class Movement : MonoBehaviour
         Mouse_Pos = Payload_Cam.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButton(0))
         {
-            shoot();
+            shoot(); 
         }
         
     }
     void FixedUpdate()
     {
-        player.MovePosition(player.position + movement * MovementSpeed * Time.fixedDeltaTime);
-        Vector2 dir = Mouse_Pos - player.position;
+        RB2D.MovePosition(RB2D.position + movement * MovementSpeed * Time.fixedDeltaTime);
+        Vector2 dir = Mouse_Pos - RB2D.position;
         float angle = Mathf.Atan2(dir.y, dir.x);
-        player.rotation = (angle * Mathf.Rad2Deg) + 180;
+        RB2D.rotation = (angle * Mathf.Rad2Deg) + 180;
     }
-    void shoot()
+    public void shoot()
     {
-        GameObject instance = Instantiate(bullet, new Vector2 (shootpoint.position.x, shootpoint.position.y),shootpoint.rotation);
-        instance.GetComponent<Rigidbody2D>().AddForce(shootpoint.forward * 10f, ForceMode2D.Impulse);
-        
+        Transform shootpoint = transform.Find("Gun").Find("Shootpoint");
+        GameObject instance = Instantiate(bullet, new Vector3(shootpoint.position.x, shootpoint.position.y, 1),player.GetComponent<Transform>().rotation);
+        instance.GetComponent<Rigidbody2D>().AddForce(-shootpoint.right * 10f, ForceMode2D.Impulse);
+
     }
 }
