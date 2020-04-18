@@ -9,7 +9,6 @@ public class Movement : MonoBehaviour
     public float MovementSpeed = 5f;
     public Camera Payload_Cam;
     Vector2 Mouse_Pos;
-    public Transform shootpoint;
     public GameObject bullet;
     void Update()
     {
@@ -18,7 +17,7 @@ public class Movement : MonoBehaviour
         Mouse_Pos = Payload_Cam.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButton(0))
         {
-            shoot();
+            shoot(); 
         }
         
     }
@@ -29,10 +28,11 @@ public class Movement : MonoBehaviour
         float angle = Mathf.Atan2(dir.y, dir.x);
         player.rotation = (angle * Mathf.Rad2Deg) + 180;
     }
-    void shoot()
+    public void shoot()
     {
-        GameObject instance = Instantiate(bullet, new Vector2 (shootpoint.position.x, shootpoint.position.y),shootpoint.rotation);
+        Transform shootpoint = transform.Find("Gun").Find("Shootpoint");
+        GameObject instance = Instantiate(bullet, new Vector2(shootpoint.position.x, shootpoint.position.y), shootpoint.rotation);
         instance.GetComponent<Rigidbody2D>().AddForce(shootpoint.forward * 10f, ForceMode2D.Impulse);
-        
+
     }
 }
