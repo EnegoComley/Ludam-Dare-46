@@ -58,11 +58,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+<<<<<<< HEAD
 *.asmdef
 *.dwlt
-*.dll
-*.dll
 Game/Temp/UnityLockfile
 Game/Library/SourceAssetDB
 Game/Library/ArtifactDB
-Game/Library/SourceAssetDB
+=======
+
+\Game\Library\*
+#
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
