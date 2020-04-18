@@ -225,6 +225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Model_Alpha: {fileID: 7414703021897519272, guid: 8e860e512130e1f4ab3b264b57cff8c0,
     type: 3}
+  Bullet_Alpha: {fileID: 1942905302428835132, guid: d5c4717dfb653f640802da63230a8dc4,
+    type: 3}
 --- !u!1001 &3811335776474880535
 PrefabInstance:
   m_ObjectHideFlags: 0

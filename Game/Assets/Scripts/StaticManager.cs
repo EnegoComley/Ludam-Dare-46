@@ -29,17 +29,27 @@ public class StaticManager : MonoBehaviour
             get { return model; }
             set { model = value; }
         }
-        private static GameObject bullet = 
+        private static GameObject bullet;
+        public static GameObject Bullet
+        {
+            set { bullet = value; }
+            get { return bullet; }
+        }
         private static int dammage = 10;
         public static int Dammage
         {
             get { return dammage; }
         }
+        private static int reload = 5;
+        public static int Reload
+        {
+            get { return reload; }
+        }
     }
     private void Start()
     {
         Gun_Alpha.Model = Model_Alpha;
-        
+        Gun_Alpha.Bullet = Bullet_Alpha;
         
     }
 }
