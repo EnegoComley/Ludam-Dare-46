@@ -13,17 +13,18 @@ public class Movement : MonoBehaviour
     private bool stagger = false;
     private void Start()
     {
+       
     }
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.x =  Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxis("Vertical");
         Mouse_Pos = Payload_Cam.ScreenToWorldPoint(Input.mousePosition);
         if (Input.GetMouseButton(0))
         {
-            shoot();
+            shoot(); 
         }
-
+        
     }
     void FixedUpdate()
     {
@@ -38,9 +39,9 @@ public class Movement : MonoBehaviour
     //{GunName}[ClipSize, ReloadTime, Dammage, BulletType]
     public void shoot()
     {
-        Transform shootpoint = transform.Find("Gun_Alpha").Find("Shootpoint");
-        GameObject instance = Instantiate(bullet, new Vector3(shootpoint.position.x, shootpoint.position.y, 1), player.GetComponent<Transform>().rotation);
-        instance.GetComponent<Rigidbody2D>().AddForce(-shootpoint.right * 10f, ForceMode2D.Impulse);
+         Transform shootpoint = transform.Find("Gun").Find("Shootpoint");
+         GameObject instance = Instantiate(bullet, new Vector3(shootpoint.position.x, shootpoint.position.y, 1), player.GetComponent<Transform>().rotation);
+         instance.GetComponent<Rigidbody2D>().AddForce(-shootpoint.right * 10f, ForceMode2D.Impulse);
+
     }
 }
-
