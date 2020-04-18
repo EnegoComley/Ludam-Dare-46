@@ -59,9 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 
+\Game\Library\*
 #
-<<<<<<< HEAD
 Game/Temp/UnityLockfile
-=======
-Game/Temp/UnityLockfile
->>>>>>> 20bf99baf79253a2de7ed6411e15e390f8a88caa
