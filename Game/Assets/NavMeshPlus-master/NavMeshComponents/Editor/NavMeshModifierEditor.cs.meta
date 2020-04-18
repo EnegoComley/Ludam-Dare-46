@@ -1,11 +1,20 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
-guid: aa9b559917e53a3489abfdc99a6ce093
+<<<<<<< HEAD
+guid: 6fa04b4743e3947eba4d7b9e5832ea69
+timeCreated: 1477036742
+licenseType: Pro
+MonoImporter:
 =======
 guid: 481adc962ec7819439f619b3c1f9afe5
->>>>>>> 3df9093b711aa9f7e35233ccd32c60b8e0d892f8
 MonoImporter:
   externalObjects: {}
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
+=======
+guid: 481adc962ec7819439f619b3c1f9afe5
+MonoImporter:
+  externalObjects: {}
+>>>>>>> 81f39a18cc24d050ab574f865ccfc5b0fed3312c
   serializedVersion: 2
   defaultReferences: []
   executionOrder: 0
