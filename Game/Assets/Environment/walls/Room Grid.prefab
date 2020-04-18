@@ -11,11 +11,7 @@ GameObject:
   - component: {fileID: 7495136157156196295}
   - component: {fileID: 1841674091957688431}
   m_Layer: 0
-<<<<<<< HEAD
   m_Name: Room Grid
-=======
-  m_Name: Grid
->>>>>>> 8dba6c2e2ae6dce844a0ccd86fb8ed6967d59cb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
